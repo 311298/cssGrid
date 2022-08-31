@@ -1,0 +1,33 @@
+css grid notes
+
+diplay : grid -> tells to make it grid like for flexbox
+
+grid-template-coumns and rows tell the container how much rows and columns are need to be made
+
+row-gap and column gap -> tells the gap between the cells
+
+note: extra red space is due to more width is given to container
+
+rather than individually assigning the grid cell space by pxs; we can use the repeat() for grid-template-column and grid-template-rows
+
+1fr -> one width of entire fraction
+
+grid-column-start and end -> line start to line end
+
+when we applying any css of grid on cell it will move the other grid cell
+
+grid-template-rows: 133px 1fr 1fr; -> when we declare the one of them with absolute number then it will given after that other will be given eqivalent spaces
+
+grid-column: 1 /span 3; -> another way of writing the grid column start and end
+
+justify-item: start end centre -> will allign it according to value given horizontally
+
+justify-item works on grid container while justify-self works on grid cell/items
+
+100vw -> 100 percent of width screen
+100vh -> 100 percent of height screen
+
+for veritcal align we use the align-item : centre end start
+and slign-self for grid items/cells
+
+place-self is used to set both horizontally and veritcally alignment
